@@ -1,6 +1,4 @@
-# 2-tier-Web-application-using-Ec2-ELB-ASG-and-Cloudwatch
-
----
+# EC2-Auto-scaling-using-Ec2-ELB-ASG-and-CloudwatchAlarms
 
 **Scalable Web Application Infrastructure on AWS**
 
@@ -22,9 +20,7 @@ In this project, a robust and scalable web application infrastructure was design
 
 7. **Launch Template:** A launch template was created, using the AMI Image created of the application server. This enabled the rapid launch of identical instances to facilitate scaling.
 
-8. **Testing and Validation:** The infrastructure's scalability has been validated by subjecting the application server to stress testing. The resulting increased CPU utilization triggered the CloudWatch alarm, which, in turn, led to the ASG dynamically adjusting the instance count, ensuring the application's responsiveness even during spikes in demand.
+8. **Testing and Validation:** The infrastructure's scalability was validated by subjecting the application server to stress testing. The resulting increased CPU utilization triggered the CloudWatch alarm, which, in turn, led to the ASG dynamically adjusting the instance count, ensuring the application's responsiveness even during spikes in demand.
 
-This project embodies a comprehensive and well-architected approach to building a scalable web application infrastructure. By thoughtfully integrating each component and leveraging AWS services for monitoring and automation, the result is a resilient and adaptable environment capable of meeting evolving application demands while maintaining a high level of performance and security.
 
---- 
 
