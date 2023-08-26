@@ -22,5 +22,5 @@ In this project, a robust and scalable web application infrastructure was design
 
 8. **Testing and Validation:** The infrastructure's scalability was validated by subjecting the application server to stress testing. The resulting increased CPU utilization triggered the CloudWatch alarm, which, in turn, led to the ASG dynamically adjusting the instance count, ensuring the application's responsiveness even during spikes in demand.
 
-Codes used for this project is also in this repository.
+Codes used for this project are also in this repository.
 
