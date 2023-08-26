@@ -1,0 +1,10 @@
+#codes to install nginx web application
+
+sudo yum update -y
+sudo yum install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+
+#codes to stress cpu
+sudo yum install stress -y
+stress --cpu 4 --timeout 600s
